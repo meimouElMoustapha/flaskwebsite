@@ -1,0 +1,15 @@
+{% extends 'layout.html'%}
+
+
+
+{% block content %} <h2>about page </h2>
+<h4>list of my favority juice</h4>
+{% for t in juice%}
+
+<li>{{t}}</li>
+
+
+{% endfor %}
+
+
+{% endblock content %}
